@@ -3,6 +3,7 @@ import 'package:custom_paint_sample/preparing/circle.dart';
 import 'package:custom_paint_sample/preparing/line.dart';
 import 'package:custom_paint_sample/preparing/rectangle.dart';
 import 'package:custom_paint_sample/preparing/rounded_rectangle.dart';
+import 'package:custom_paint_sample/preparing/triangle.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DrawArcPreparing(),
+      home: DrawTrianglePreparing(),
     );
   }
 }
