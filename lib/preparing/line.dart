@@ -27,7 +27,10 @@ class LinePainter extends CustomPainter{
     final paint=Paint()..strokeWidth=10..color=Colors.white;
 
     canvas.drawLine(
+      //boshlanish nuqta
       Offset(size.width*1/6,size.height*1/2),
+
+      //yakuniy nuqta
       Offset(size.width*5/6,size.height*1/2),
       paint
     );
