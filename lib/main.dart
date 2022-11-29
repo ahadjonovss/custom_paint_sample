@@ -3,6 +3,7 @@ import 'package:custom_paint_sample/painting/emojies/good.dart';
 import 'package:custom_paint_sample/painting/emojies/normally.dart';
 import 'package:custom_paint_sample/painting/emojies/very_good.dart';
 import 'package:custom_paint_sample/painting/flag/flag.dart';
+import 'package:custom_paint_sample/painting/snowman/snowman.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Bad(),
+      home: Snowman(),
     );
   }
 }
