@@ -1,3 +1,4 @@
+import 'package:custom_paint_sample/painting/emojies/bad.dart';
 import 'package:custom_paint_sample/painting/emojies/good.dart';
 import 'package:custom_paint_sample/painting/emojies/normally.dart';
 import 'package:custom_paint_sample/painting/emojies/very_good.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Normally(),
+      home: Bad(),
     );
   }
 }
