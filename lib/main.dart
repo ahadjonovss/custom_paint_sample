@@ -1,3 +1,4 @@
+import 'package:custom_paint_sample/preparing/circle.dart';
 import 'package:custom_paint_sample/preparing/line.dart';
 import 'package:custom_paint_sample/preparing/rectangle.dart';
 import 'package:custom_paint_sample/preparing/rounded_rectangle.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RoundedRectanglePreparing(),
+      home: DrawCirclePreparing(),
     );
   }
 }

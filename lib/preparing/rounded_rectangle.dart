@@ -25,7 +25,7 @@ class RoundedRectDraw extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..strokeWidth = 10
+      ..strokeWidth = 3
       ..color = Colors.blue
       ..style = PaintingStyle.stroke;
 
