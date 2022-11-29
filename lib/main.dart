@@ -1,3 +1,4 @@
+import 'package:custom_paint_sample/preparing/arc.dart';
 import 'package:custom_paint_sample/preparing/circle.dart';
 import 'package:custom_paint_sample/preparing/line.dart';
 import 'package:custom_paint_sample/preparing/rectangle.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DrawCirclePreparing(),
+      home: DrawArcPreparing(),
     );
   }
 }
