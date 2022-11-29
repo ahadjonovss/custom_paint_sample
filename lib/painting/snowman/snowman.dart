@@ -42,6 +42,30 @@ class SnowmanPainter extends CustomPainter{
     canvas.drawCircle(Offset(size.width / 2, 380), size.width * 1 / 4, circleinside);
     canvas.drawCircle(Offset(size.width / 2, 560), size.width * 1 / 3, circleinside);
 
+    final eye = Paint()
+      ..color = Colors.black
+      ..strokeWidth = 5
+      ..style = PaintingStyle.fill;
+
+    canvas.drawCircle(Offset(225, 220), 10, eye); //eye
+    canvas.drawCircle(Offset(165, 220), 10, eye); //eye
+
+    //nose
+    final nose = Paint()
+      ..color = Colors.orange
+      ..strokeWidth = 5
+      ..style = PaintingStyle.fill;
+
+    canvas.drawCircle(
+        Offset(size.width / 2, 240), size.width * 1 / 40, nose);
+    final noseborder = Paint()
+      ..color = Colors.brown
+      ..strokeWidth = 2
+      ..style = PaintingStyle.stroke;
+
+    canvas.drawCircle(
+        Offset(size.width / 2, 240), size.width * 1 / 40, noseborder);
+
 
   }
 
