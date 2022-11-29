@@ -50,6 +50,11 @@ class SnowmanPainter extends CustomPainter{
     canvas.drawCircle(Offset(225, 220), 10, eye); //eye
     canvas.drawCircle(Offset(165, 220), 10, eye); //eye
 
+    canvas.drawCircle(Offset(size.width / 2, 320), 10, eye); //tugmacha
+    canvas.drawCircle(Offset(size.width / 2, 360), 10, eye); //tugmacha
+    canvas.drawCircle(Offset(size.width / 2, 400), 10, eye); //tugmacha
+
+
     //nose
     final nose = Paint()
       ..color = Colors.orange
@@ -65,6 +70,12 @@ class SnowmanPainter extends CustomPainter{
 
     canvas.drawCircle(
         Offset(size.width / 2, 240), size.width * 1 / 40, noseborder);
+
+    canvas.drawLine(Offset(20, 280), Offset(105, 340), noseborder);
+    canvas.drawLine(Offset(360, 280), Offset(285, 340), noseborder);
+
+
+
 
 
   }
